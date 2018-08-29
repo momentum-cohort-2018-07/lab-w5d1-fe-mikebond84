@@ -2,6 +2,11 @@ import 'shoelace-css/dist/shoelace.css'
 import './text.css'
 import request from 'superagent'
 
+getId('output').addEventListener('click', function (e) {
+  if (e.target && e.target.matches('resultItem')) {
+  } console.log('something')
+})
+
 // accessing DOM events
 function createDOM (item) {
   // if an item (from the earlier for loop) is in the index
